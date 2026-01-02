@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Abhijnan Panigrahi | Portfolio</title>
+    <meta name="description" content="Academic portfolio of Abhijnan Panigrahi – Medieval Bengali literature, folklore studies, linguistics, theory of dramas." />
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <!-- Background video layer -->
+    <!-- Place the file "background_AP_website.mp4" in the same folder as this HTML file.
+         If your video has a different extension, update the src attribute below. -->
+    <div class="background-video-wrapper" aria-hidden="true">
+        <video class="background-video" autoplay muted loop playsinline>
+            <source src="vid_assets_ap/background_AP_website.mp4" type="video/mp4" />
+        </video>
+        <div class="background-overlay"></div>
+    </div>
+
+    <header class="site-header">
+        <div class="container header-inner">
+            <div class="branding">
+                <div class="logo-mark" aria-hidden="true">AP</div>
+                <div class="name-block">
+                    <h1 class="site-title">Abhijnan Panigrahi</h1>
+                    <p class="site-subtitle">B.A. (Hons) in Bengali · Presidency University, Kolkata</p>
+                </div>
+            </div>
+            <nav class="site-nav" aria-label="Primary">
+                <button class="nav-toggle" aria-expanded="false" aria-label="Toggle navigation">
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-list">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#research">Research</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#cv">CV</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero" class="hero-section reveal">
+            <div class="container hero-inner">
+                <div class="hero-text">
+                    <p class="eyebrow">Literature · Culture · Language</p>
+                    <h2>Exploring Medieval Bengali worlds through text, performance, and folklore.</h2>
+                    <p class="hero-lead">
+                        Abhijnan is an aspiring scholar of Bengali language and literature, with a focus on
+                        medieval texts, folk traditions, and the theory of drama.
+                    </p>
+                    <div class="hero-meta">
+                        <p>Research interests:</p>
+                        <ul>
+                            <li>Medieval Bengali literature</li>
+                            <li>Folklore studies</li>
+                            <li>Linguistics</li>
+                            <li>Theory of dramas</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="hero-card">
+                    <p class="hero-label">Currently</p>
+                    <p class="hero-status">B.A. (Hons) in Bengali</p>
+                    <p class="hero-institution">Presidency University, Kolkata</p>
+                    <a class="hero-cta" href="#projects">View selected work</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="section section-muted reveal">
+            <div class="container two-column">
+                <div>
+                    <h2>About</h2>
+                    <p>
+                        I am currently pursuing a B.A. (Hons) in Bengali at Presidency University, Kolkata.
+                        My work sits at the intersection of literary history, performance traditions, and
+                        everyday cultural practices.
+                    </p>
+                    <p>
+                        I am particularly interested in how texts travel across time — through oral
+                        performance, manuscript circulation, and contemporary reinterpretations — and how
+                        language encodes the social worlds that produce it.
+                    </p>
+                </div>
+                <aside class="info-card" aria-label="Research focus">
+                    <h3>Core research interests</h3>
+                    <ul class="pill-list">
+                        <li>Medieval Bengali literature</li>
+                        <li>Folklore and oral traditions</li>
+                        <li>Historical linguistics</li>
+                        <li>Theory of drama</li>
+                    </ul>
+                    <p class="info-note">
+                        This site is a living archive of ongoing projects, notes, and
+                        experiments in reading Bengali texts closely and slowly.
+                    </p>
+                </aside>
+            </div>
+        </section>
+
+        <section id="research" class="section reveal">
+            <div class="container">
+                <header class="section-header">
+                    <h2>Research & Writing</h2>
+                    <p>
+                        A selection of essays, term papers, and independent explorations.
+                        You can customize the headings and attach downloadable PDFs for each item.
+                    </p>
+                </header>
+
+                <div class="cards-grid" id="research-list">
+                    <!-- Example research item -->
+                    <article class="card">
+                        <h3 class="card-title">[Replace with research paper title]</h3>
+                        <p class="card-meta">Course / Semester · Year</p>
+                        <p class="card-summary">
+                            A brief 2–3 line abstract of the research, argument, or reading focus.
+                            Replace this text with your own summary.
+                        </p>
+                        <div class="card-actions">
+                            <a class="btn-secondary" href="docs/sample-research-paper.pdf" download>
+                                Download PDF
+                            </a>
+                        </div>
+                    </article>
+
+                    <article class="card">
+                        <h3 class="card-title">[Another project or paper]</h3>
+                        <p class="card-meta">Workshop / Independent study · Year</p>
+                        <p class="card-summary">
+                            Use this space to describe a folklore, linguistics, or drama-related project,
+                            with emphasis on method and sources.
+                        </p>
+                        <div class="card-actions">
+                            <a class="btn-secondary" href="docs/sample-project.pdf" download>
+                                Download PDF
+                            </a>
+                        </div>
+                    </article>
+                </div>
+
+                <p class="section-hint">
+                    To add more items, duplicate any <code>&lt;article class="card"&gt;…&lt;/article&gt;</code>
+                    block above and update the title, description, and PDF link.
+                </p>
+            </div>
+        </section>
+
+        <section id="gallery" class="section section-muted reveal">
+            <div class="container">
+                <header class="section-header">
+                    <h2>Visual Notes & Fieldwork</h2>
+                    <p>
+                        A quiet gallery for photographs of manuscripts, performance spaces, field sites,
+                        or anything that informs your work. Images open in a lightbox when clicked.
+                    </p>
+                </header>
+
+                <div class="gallery-grid" aria-label="Photo gallery">
+                    <!--
+                        To add your own photos:
+                        1. Place image files in an "images" folder next to this HTML file (e.g., images/photo1.jpg).
+                        2. Duplicate a .gallery-item block below.
+                        3. Update the src, alt, and figcaption text.
+                    -->
+
+                    <figure class="gallery-item" tabindex="0">
+                        <img src="pic_assets_ap/sample-1.jpg" alt="Sample research-related photograph" />
+                        <figcaption>Sample caption for a manuscript or archival image.</figcaption>
+                    </figure>
+
+                    <figure class="gallery-item" tabindex="0">
+                        <img src="pic_assets_ap/sample-2.jpg" alt="Sample image from field or performance" />
+                        <figcaption>Sample caption for a performance or fieldwork space.</figcaption>
+                    </figure>
+
+                    <figure class="gallery-item" tabindex="0">
+                        <img src="pic_assets_ap/sample-3.jpg" alt="Sample image representing everyday cultural life" />
+                        <figcaption>Sample caption for everyday cultural scenes.</figcaption>
+                    </figure>
+                </div>
+            </div>
+
+            <!-- Lightbox modal for gallery images -->
+            <div class="lightbox" id="lightbox" aria-hidden="true" role="dialog" aria-label="Image preview">
+                <button class="lightbox-close" aria-label="Close image preview">×</button>
+                <img class="lightbox-image" src="" alt="Expanded gallery item" />
+                <p class="lightbox-caption"></p>
+            </div>
+        </section>
+
+        <section id="projects" class="section reveal">
+            <div class="container two-column stack-on-mobile">
+                <div>
+                    <h2>Projects</h2>
+                    <p>
+                        Use this space for long-term or experimental projects — critical editions, annotated
+                        translations, small corpora, or collaborative work.
+                    </p>
+
+                    <article class="card compact">
+                        <h3 class="card-title">[Project title]</h3>
+                        <p class="card-meta">Type of project · In progress / Completed</p>
+                        <p class="card-summary">
+                            Short description of the project: materials used, questions asked, and the form
+                            of the final output.
+                        </p>
+                        <div class="card-actions">
+                            <a class="btn-text" href="#research">Linked write-up in Research section</a>
+                        </div>
+                    </article>
+
+                    <article class="card compact">
+                        <h3 class="card-title">[Digital or archival initiative]</h3>
+                        <p class="card-meta">Notes, transcriptions, or datasets</p>
+                        <p class="card-summary">
+                            Describe any transcription projects, digital catalogues, or collections of notes
+                            that support your research.
+                        </p>
+                    </article>
+                </div>
+
+                <aside class="info-card" aria-label="How to customize projects & research">
+                    <h3>Customizing this section</h3>
+                    <ol class="steps-list">
+                        <li>Change each heading inside <code>&lt;h3 class="card-title"&gt;</code>.</li>
+                        <li>Update the <code>.card-meta</code> line with course, year, or status.</li>
+                        <li>Replace the summary text with your own description.</li>
+                        <li>Point the “Download PDF” buttons in the Research section to your files in <code>docs/</code>.</li>
+                    </ol>
+                </aside>
+            </div>
+        </section>
+
+        <section id="cv" class="section section-muted reveal">
+            <div class="container cv-section">
+                <div>
+                    <h2>Curriculum Vitae</h2>
+                    <p>
+                        A concise record of academic work, presentations, and other experiences.
+                        Keep a current PDF in the site folder so visitors can download it easily.
+                    </p>
+                    <p class="section-hint">
+                        Save your CV as <code>docs/Abhijnan_Panigrahi_CV.pdf</code> (or update the link
+                        below to match your filename).
+                    </p>
+                </div>
+                <div class="cv-actions">
+                    <a class="btn-primary" href="docs/Abhijnan_Panigrahi_CV.pdf" download>
+                        Download CV
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <p>© <span id="year"></span> Abhijnan Panigrahi. All rights reserved.</p>
+            <p class="footer-note">Built as a minimalist academic portfolio.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
